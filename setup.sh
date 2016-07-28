@@ -3,12 +3,14 @@ sudo yum update
 sudo yum upgrade
 
 #ユーザー追加、ユーザーパスワー追加
-sudo useradd ryoheishioji
-sudo passwd ryoheishioji
+#sudo useradd ryoheishioji
+#sudo passwd ryoheishioji
 
 #ユーザーにsudo権限を追加
-sudo usermod -G wheel ryoheishioji
-su -l ryoheishioji
+#sudo usermod -G wheel ryoheishioji
+
+#sudoユーザーの切り替え
+#su -l ryoheishioji
 
 #Gitインストール
 sudo yum -y install gcc curl-devel expat-devel gettext-devel openssl-devel zlib-devel perl-ExtUtils-MakeMaker
