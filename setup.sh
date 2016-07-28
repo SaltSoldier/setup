@@ -3,7 +3,7 @@ sudo yum update
 sudo yum upgrade
 
 #ユーザー追加、ユーザーパスワー追加
-sudo ueradd ryoheishioji
+sudo useradd ryoheishioji
 sudo passwd ryoheishioji
 
 #ユーザーにsudo権限を追加
